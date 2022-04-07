@@ -16,7 +16,6 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        .binaryTarget(name: "XIBLoadable", path: "./Sources/XIBLoadable.xcframework"),
         .binaryTarget(name: "XIBLoadable", url: "https://github.com/smartsanja2013/SMPTest/blob/main/XIBLoadable.xcframework.zip", checksum: "ff769f6a6c48866bcda5be40117b8d078d966b7949e552088970861e2c88df0f")
     ]
 )
